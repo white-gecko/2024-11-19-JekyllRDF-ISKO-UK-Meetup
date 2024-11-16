@@ -1,0 +1,34 @@
+
+---
+title: "Jekyll RDF"
+author: "Natanael Arndt"
+date: "2024-11-19"
+institute: ISKO-UK Meetup
+lang: en-GB
+format:
+  revealjs:
+    embed-resources: true
+    html-math-method: plain
+    slide-number: true
+    touch: true
+    controls: true
+---
+
+## Overview
+
+1. Ziel
+2. Ansatz
+3. Kern
+4. Dokumentation und Test
+5. Community und Stakeholder
+6. Fragen
+
+## Motivation
+- Structured Knowledge
+
+## Three Parts
+
+The three main parts contributed by Jekyll RDF are:
+- Templating, filters
+- Resource selection
+- Class based template selection

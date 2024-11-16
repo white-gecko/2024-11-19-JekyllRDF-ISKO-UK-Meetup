@@ -1,0 +1,57 @@
+version: '3'
+
+tasks:
+  default:
+    desc: List available commands
+    cmds:
+      - task -a
+
+  preview:
+    desc: Preview presentation
+    aliases: ["serve"]
+    cmds:
+      - quarto preview presentation.qmd
+
+  build:
+    desc: Render presentation
+    aliases: ["render"]
+    cmds:
+      - quarto render presentation.qmd
+
+  figures:
+    desc: Build figures and convert them to PNG
+    deps:
+      - task: figures:web_archive
+      - task: figures:web_archive_tech
+      - task: figures:archiving_cycle
+      - task: figures:vorstellung
+
+  figures:web_archive:
+    desc: Convert web archive figures to PNG
+    cmds:
+      - |
+        cd figures/web_archive/
+        pdftocairo -png -transp -r 300 overview.pdf
+        pdftocairo -png -transp -r 300 overview_en.pdf
+
+  figures:web_archive_tech:
+    desc: Convert web archive technical figures to PNG
+    cmds:
+      - |
+        cd figures/web_archive_tech/
+        pdftocairo -png -singlefile -transp -r 300 overview_tools.pdf
+
+  figures:archiving_cycle:
+    desc: Convert cycle figures to PNG
+    cmds:
+      - |
+        cd figures/archiving_cycle/
+        pdftocairo -png -singlefile -transp -r 300 cycle.pdf
+        pdftocairo -png -singlefile -transp -r 300 cycle_en.pdf
+
+  figures:vorstellung:
+    desc: Convert vorstellung figures to PNG
+    cmds:
+      - |
+        cd figures/vorstellung/
+        pdftocairo -png -singlefile -transp -r 300 main.pdf
