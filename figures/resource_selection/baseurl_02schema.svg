@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="155.11285mm"
+   height="29.03043mm"
+   viewBox="0 0 155.11285 29.03043"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   sodipodi:docname="baseurl_02schema.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs2">
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker1315"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1313"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lend"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path994"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path982"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#6f6f6f;fill-opacity:1;fill-rule:evenodd;stroke:#6f6f6f;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path976"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend-1"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path982-5"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#6f6f6f;fill-opacity:1;fill-rule:evenodd;stroke:#6f6f6f;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.7268963"
+     inkscape:cx="244.78379"
+     inkscape:cy="32.271121"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer2"
+     showgrid="false"
+     inkscape:window-width="2560"
+     inkscape:window-height="1368"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="resource IRI"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="37.041668"
+       y="43.982738"
+       id="text16"
+       inkscape:label="url"
+       transform="translate(-32.314674,-27.872925)"><tspan
+         sodipodi:role="line"
+         x="37.041668"
+         y="43.982738"
+         style="stroke-width:0.264583"
+         id="tspan20">http://pfarrerbuch.aksw.org/sachsen/ort/3441</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono';letter-spacing:0px;word-spacing:0px;display:inline;fill:#6f6f6f;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-52.806946"
+       y="35.3876"
+       id="text896"
+       transform="rotate(-90,-30.093799,2.2208743)"
+       inkscape:label="resIRI"><tspan
+         sodipodi:role="line"
+         id="tspan894"
+         x="-52.806946"
+         y="35.3876"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';fill:#6f6f6f;fill-opacity:1;stroke-width:0.264583">res. IRI</tspan></text>
+  </g>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-32.314673,-27.872925)"
+     style="display:inline">
+    <rect
+       style="opacity:1;fill:#ff5353;fill-opacity:0.295455;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect3909"
+       width="91.935593"
+       height="9.8412714"
+       x="36.774235"
+       y="39.961769" />
+    <rect
+       style="opacity:1;fill:#1800b0;fill-opacity:0.295455;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect3911"
+       width="20.308151"
+       height="9.8412704"
+       x="128.70982"
+       y="39.961769" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono';letter-spacing:0px;word-spacing:0px;display:inline;fill:#6f6f6f;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="52.744247"
+       y="55.993851"
+       id="text12"
+       inkscape:label="URL definition"><tspan
+         sodipodi:role="line"
+         id="tspan10"
+         x="52.744247"
+         y="55.993851"
+         style="fill:#6f6f6f;fill-opacity:1;stroke-width:0.264583">scheme://authority/path?query</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono';letter-spacing:0px;word-spacing:0px;fill:#6f6f6f;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="151.82603"
+       y="34.605877"
+       id="text913-0-1" />
+    <path
+       id="path931"
+       style="display:inline;fill:none;stroke:#6f6f6f;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.06, 1.06;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 149.01798,39.679661 v 10.980984 l -22.32031,1.431983 v 4.288039 m -28.175651,0 v -4.288039 l 7.203911,-1.431983 V 32.013695 M 54.818308,35.70396 v 14.956685 l 21.062858,1.431983 v 4.288039 m -7.615561,0 V 52.092628 L 47.545794,50.660645 V 35.70396 M 36.774236,28.037994 v 22.622651 l 15.917206,1.431983 v 4.288039"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccccccccccc" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="config"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono';letter-spacing:0px;word-spacing:0px;fill:#6f6f6f;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-38.945992"
+       y="35.3876"
+       id="text931"
+       transform="rotate(-90,-30.093799,2.2208743)"
+       inkscape:label="config"><tspan
+         sodipodi:role="line"
+         id="tspan929"
+         x="-38.945992"
+         y="35.3876"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';fill:#6f6f6f;fill-opacity:1;stroke-width:0.264583">config</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:'OPen Sans';-inkscape-font-specification:'OPen Sans';letter-spacing:0px;word-spacing:0px;display:inline;fill:#6f6f6f;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="68.059776"
+       y="33.919868"
+       id="text909"
+       transform="translate(-32.314674,-27.872925)"><tspan
+         sodipodi:role="line"
+         id="tspan907"
+         x="68.059776"
+         y="33.919868"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'OPen Sans';-inkscape-font-specification:'OPen Sans';fill:#6f6f6f;fill-opacity:1;stroke-width:0.264583">url</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono';letter-spacing:0px;word-spacing:0px;display:inline;fill:#6f6f6f;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="110.72414"
+       y="33.919868"
+       id="text913"
+       transform="translate(-32.314674,-27.872925)"><tspan
+         sodipodi:role="line"
+         id="tspan911"
+         x="110.72414"
+         y="33.919868"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'OPen Sans';-inkscape-font-specification:'OPen Sans';fill:#6f6f6f;fill-opacity:1;stroke-width:0.264583">baseurl</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#6f6f6f;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="97.436554"
+       y="30.553209"
+       id="text917"
+       transform="translate(-32.314674,-27.872925)"><tspan
+         sodipodi:role="line"
+         id="tspan915"
+         x="97.436554"
+         y="30.553209"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';text-align:center;text-anchor:middle;fill:#6f6f6f;fill-opacity:1;stroke-width:0.264583">Jekyll Site URL</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono';letter-spacing:0px;word-spacing:0px;display:inline;fill:#6f6f6f;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="37.041668"
+       y="38.862965"
+       id="text927"
+       transform="translate(-32.314674,-27.872925)"><tspan
+         sodipodi:role="line"
+         id="tspan925"
+         x="37.041668"
+         y="38.862965"
+         style="fill:#6f6f6f;fill-opacity:1;stroke-width:0.264583">http://pfarrerbuch.aksw.org/sachsen/</tspan></text>
+    <path
+       id="path5"
+       style="display:inline;fill:none;stroke:#6f6f6f;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.06, 1.06;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 161.35591,28.474362 V 45.066026 M 128.70982,28.037994 v 21.765045"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc"
+       transform="translate(-32.314674,-27.872925)" />
+    <path
+       style="display:inline;fill:none;stroke:#6f6f6f;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.06, 1.06;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 32.314673,40.109516 H 128.5726"
+       id="path933"
+       inkscape:connector-curvature="0"
+       transform="translate(-32.314674,-27.872925)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="page"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="149.20522"
+       y="43.982738"
+       id="text2"
+       inkscape:label="url_html"
+       transform="translate(-32.314674,-27.872925)"><tspan
+         sodipodi:role="line"
+         x="149.20522"
+         y="43.982738"
+         style="stroke-width:0.264583"
+         id="tspan2">.html</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono';letter-spacing:0px;word-spacing:0px;display:inline;fill:#6f6f6f;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="162.81921"
+       y="32.902153"
+       id="text913-0-0-2"
+       transform="translate(-32.314674,-27.872925)"><tspan
+         sodipodi:role="line"
+         id="tspan911-3-1-2"
+         x="162.81921"
+         y="32.902153"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'OPen Sans';-inkscape-font-specification:'OPen Sans';fill:#6f6f6f;fill-opacity:1;stroke-width:0.264583">Jekyll RDF page</tspan></text>
+    <path
+       style="display:inline;fill:none;stroke:#6f6f6f;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-1)"
+       d="m 169.02145,34.388859 c -1.78009,0.964263 -3.48643,1.817907 -6.77423,5.043743"
+       id="path971-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       transform="translate(-32.314674,-27.872925)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono';letter-spacing:0px;word-spacing:0px;display:inline;fill:#6f6f6f;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="138.09332"
+       y="33.919868"
+       id="text913-0"
+       transform="translate(-32.314674,-27.872925)"><tspan
+         sodipodi:role="line"
+         id="tspan911-3"
+         x="138.09332"
+         y="33.919868"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'OPen Sans';-inkscape-font-specification:'OPen Sans';fill:#6f6f6f;fill-opacity:1;stroke-width:0.264583">file path</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g5"
+     inkscape:label="Sub resource"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;display:inline;fill:#6f6f6f;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="117.24388"
+       y="28.120926"
+       id="text5"
+       inkscape:label="URL definition"><tspan
+         sodipodi:role="line"
+         id="tspan5"
+         x="117.24388"
+         y="28.120926"
+         style="text-align:end;text-anchor:end;fill:#6f6f6f;fill-opacity:1;stroke-width:0.264583">#fragment</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="37.041668"
+       y="43.982738"
+       id="text4"
+       inkscape:label="url"
+       transform="translate(-32.314674,-27.872925)"><tspan
+         sodipodi:role="line"
+         x="37.041668"
+         y="43.982738"
+         style="stroke-width:0.264583"
+         id="tspan3" /><tspan
+         sodipodi:role="line"
+         x="37.041668"
+         y="49.274399"
+         style="stroke-width:0.264583"
+         id="tspan4">http://pfarrerbuch.aksw.org/sachsen/ort/3441#stellen</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono';letter-spacing:0px;word-spacing:0px;display:inline;fill:#6f6f6f;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="164.737"
+       y="41.871498"
+       id="text913-0-0"
+       transform="translate(-32.314674,-27.872925)"><tspan
+         sodipodi:role="line"
+         id="tspan911-3-1"
+         x="164.737"
+         y="41.871498"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'OPen Sans';-inkscape-font-specification:'OPen Sans';fill:#6f6f6f;fill-opacity:1;stroke-width:0.264583">sub resource</tspan></text>
+    <path
+       style="display:inline;fill:none;stroke:#6f6f6f;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m 162.47838,42.935279 c 25.06363,-1.661077 18.57668,3.443714 7.87689,4.946715"
+       id="path971"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       transform="translate(-32.314674,-27.872925)" />
+  </g>
+</svg>

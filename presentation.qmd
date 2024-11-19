@@ -1,34 +1,214 @@
 
 ---
-title: "Jekyll RDF"
-author: "Natanael Arndt"
+title: "Introducing Jekyll RDF"
+subtitle: Template-Based Linked Data Publication<br/>with Minimized Effort and Maximum Scalability
+author: "Natanael Arndt<br/>&lt;https://natanael.arndt.xyz/#i&gt;"
 date: "2024-11-19"
-institute: ISKO-UK Meetup
+institute: ISKO UK Meetup, London/Online
 lang: en-GB
 format:
   revealjs:
+    theme: [style/custom.scss]
     embed-resources: true
     html-math-method: plain
     slide-number: true
     touch: true
     controls: true
+    scrollable: true
 ---
 
 ## Overview
 
-1. Ziel
-2. Ansatz
-3. Kern
-4. Dokumentation und Test
-5. Community und Stakeholder
-6. Fragen
+1. Motivation and Aim
+2. Approach
+3. Core
+4. Documentation and Test
+5. Use Cases and Community
+6. Future
+7. Questions
 
-## Motivation
-- Structured Knowledge
+# Motivation and Aim
 
-## Three Parts
 
-The three main parts contributed by Jekyll RDF are:
-- Templating, filters
-- Resource selection
-- Class based template selection
+## The LOD Cloud
+
+::: {.r-stack}
+[![The Linked Open Data Cloud from lod-cloud.net](./figures/lod_cloud/2024-10-25-lod-cloud.svg){.fragment width=50%}](https://lod-cloud.net/)
+
+:::: {.fragment}
+![](./figures/icons/rdffile.svg){.absolute top=200 left=150}
+![](./figures/icons/rdffile.svg){.absolute top=400 left=180}
+![](./figures/icons/rdffile.svg){.absolute top=500 left=650}
+![](./figures/icons/rdffile.svg){.absolute top=300 left=800}
+::::
+:::
+
+## Aim
+
+> The Web was designed as an [information space]{.highlight}, with the goal not only that it should be useful for [human–human communication]{.highlight}, but also that [machines]{.highlight} would be able to participate and [help users communicate]{.highlight} with each other.
+> [*Berners-Lee, T., Hendler, J.: Publishing on the semantic web. Nature 410(6832) (2001)*]{.textsmall}
+
+## Problem
+
+::: {.textsmall}
+> How can we close the gap between structured data and human accessible exploration interfaces?
+:::
+
+::: {.r-stack}
+![](./figures/generic/wikidata-leipzig.png){.fragment .absolute top=200 left=0 width="700"}
+
+![](./figures/generic/dbpedia-leipzig.png){.fragment .absolute top=240 right=0 width="700"}
+
+:::: {.fragment .framed-overlay .absolute top=220 right=30}
+Generic Interfaces
+::::
+
+![](./figures/demos/dataweek-2025.png){.fragment .absolute top=280 left=100 width="700"}
+
+::: {.fragment .framed-overlay .absolute top=450 left=10}
+Customized layouts as *form letter* for graph data
+:::
+:::
+
+# The Core Approach
+
+![](./figures/steps/steps_grey.svg) <!-- Steps Grey -->
+
+
+## Markup
+
+![](./figures/steps/step-3_.svg){width=50%} <!-- Steps 3 -->
+
+::: {.r-stack}
+![](./figures/markup/lst-tmpl.svg){.fragment .white-overlay .absolute width=700 top=200 left=50 right=50}
+![](./figures/markup/markup.svg){.fragment .white-overlay .absolute width=900 top=200 left=50 right=50}
+![](./figures/markup/jekyllrdf-markup.svg){.fragment .white-overlay .absolute width=1000 top=200 left=0 right=0}
+:::
+
+
+## From Resource to Page{.small}
+
+![](./figures/steps/step-2_.svg){width=50%} <!-- Steps 2 -->
+
+
+::: {.r-stack}
+![](./figures/resource_selection/baseurl_01resource.svg){.white-overlay .fragment .fade-in-then-out width="1000"}
+
+![](./figures/resource_selection/baseurl_02schema.svg){.white-overlay .fragment .fade-in-then-out width="1000"}
+
+![](./figures/resource_selection/baseurl_03config.svg){.white-overlay .fragment .fade-in-then-out width="1000"}
+
+![](./figures/resource_selection/baseurl_04page.svg){.white-overlay .fragment .fade-in-then-out width="1000"}
+
+![](./figures/resource_selection/baseurl_05fragment.svg){.white-overlay .fragment .fade-in width="1000"}
+:::
+
+## Template Selection {.smaller}
+
+![](./figures/steps/steps.svg){width=50%} <!-- Steps 1 -->
+
+::: {.r-stack}
+![](./figures/classes/classes_edit_white_classes.svg){.fragment .absolute width=700 top=200 left=180 right=10} <!-- Classes -->
+![](./figures/classes/classes_edit_white_paths.svg){.fragment .absolute width=700 top=200 left=180 right=10} <!-- Paths -->
+
+:::: {.fragment .framed-overlay .absolute top=250 left=50}
+Templates are selected based on the types shortest subClass-path
+::::
+:::
+
+# The Code
+
+## Integrated in Jekyll
+
+![](./figures/logos/jekyll-sticker.png){.absolute bottom=0 height=100}
+![](./figures/icons/ruby.svg){.absolute bottom=0 left=300 height=100}
+
+![](./figures/automation/jekyll-rdf.svg){.light-overlay .absolute width=1000}
+
+::: {.framed-overlay .textsmall .fragment .absolute top=200}
+- Popular Jekyll system (6th on [jamstack](https://jamstack.org/generators/))
+- It is a *Static Site Generator* and CMS
+- Layout templates and markdown files to build a webpage
+- The webpage is static and self contained
+- … and can be served with minimum effort using e.g. nginx, github pages, static webspace
+- Powerful, extensible, and simple templating language (liquid)
+:::
+
+## Initial Creation
+
+- The foundation was laid by a student team as part of an assignment
+- With a student worker it was further developed
+- Part of the technology stack for my doctoral thesis
+  - “Publication and Exploration”
+  - plays nicely with Git based data workflows
+
+## Documentation and Test
+
+::: {.r-stack}
+![](./figures/development/github.png){.fragment .absolute width=700 top=10 left=0}
+![](./figures/development/github-readme.png){.fragment .absolute width=700 top=10 left=0}
+![](./figures/development/rubygems.png){.fragment .absolute width=800 top=100 right=0}
+:::
+
+# Community and Usecases
+
+## Vocabulary Docu with JOD
+
+::: {.textsmall}
+> JOD: Jekyll Ontology Documentation
+:::
+
+::: {.r-stack}
+![](./figures/demos/diggr.png){.fragment .absolute width=500 top=200 left=200}
+![](./figures/demos/jod-gndo.png){.fragment .absolute width=900 top=200 left=50}
+:::
+
+::: {.fragment .framed-overlay .absolute bottom=0}
+At eccenca, the Leipzig University Library (UBL), and the German National Library (DNB).
+
+[https://github.com/eccenca/jod](https://github.com/eccenca/jod),
+[diggr](https://diggr.github.io/diggr-video-game-vocabulary/),
+[gndo](https://d-nb.info/standards/elementset/gnd)
+:::
+
+## Research Projects & Groups
+
+::: {.r-stack}
+![](./figures/demos/aksw-org.png){.fragment .absolute width=800 top=200 right=100}
+![](./figures/demos/sda.png){.fragment .absolute width=800 top=90 left=50}
+![](./figures/demos/Pfarrerbuch.png){.fragment .absolute top=80 right=0 height=600}
+![](./figures/demos/mmoon.png){.fragment .absolute top=100 height=500 left=0}
+:::
+
+## Data Week
+
+::: {.r-stack}
+![](./figures/demos/dataweek-2025.png){.fragment .absolute width=800 top=80 left=0}
+![](./figures/demos/dataweek-2024-keynote.png){.fragment .absolute width=800 top=200 right=0}
+![](./figures/demos/dataweek-2023-program.png){.fragment .absolute width=800 top=140 left=100}
+:::
+
+# Future
+
+## Jinja and Python
+
+![](./figures/logos/jinja-logo.webp){height=150} <!-- Jinja-Logo -->
+![](./figures/icons/Python.svg){height=150}
+
+- Python re-implementation
+- Take the parts apart (starting with the markup)
+- Latex templates
+- Hybrid static and dynamic site generation
+
+# Summary
+
+![](./figures/steps/steps.svg) <!-- Steps 1 -->
+
+@github: [https://github.com/AKSW/jekyll-rdf](https://github.com/AKSW/jekyll-rdf)
+
+
+::: {.textsmall .dark-overlay}
+[Jekyll RDF: Template-Based Linked Data Publication with Minimized Effort and Maximum Scalability](https://natanael.arndt.xyz/bib/arndt-n-2019--jekyll-rdf)<br/>
+by Natanael Arndt, Sebastian Zänker, Gezim Sejdiu, Sebastian Tramp<br/>
+in Proceedings of the 19th International Conference on Web Engineering (ICWE 2019), Daejeon, South Korea, 2019-06
+:::

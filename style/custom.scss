@@ -1,0 +1,45 @@
+/*-- scss:uses --*/
+
+/*-- scss:functions --*/
+
+/*-- scss:defaults --*/
+@import "./moon.scss";
+
+/*-- scss:mixins --*/
+
+/*-- scss:rules --*/
+h1.title {
+  font-family: "League Gothic", "Nimbus Sans Narrow", sans-serif;
+}
+
+span.highlight {
+  color: $blue;
+  font-weight: bolder;
+}
+
+.textsmall {
+  font-size: calc($presentation-font-size-root * $presentation-font-smaller);
+}
+
+.light-overlay {
+  background-color: $base00;
+  padding: 10px
+}
+
+.dark-overlay {
+  background-color: $base02;
+  padding: 10px
+}
+
+.white-overlay {
+  background-color: white;
+  padding: 10px
+}
+
+.framed-overlay {
+  color: $body-bg;
+  background-color: $presentation-heading-color;
+  padding: 10px;
+  margin: .5em;
+  border: solid;
+}
